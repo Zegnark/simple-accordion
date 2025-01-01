@@ -1,0 +1,711 @@
+   <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .sessions {
+            display: flex;
+            flex-direction: column;
+            /* height: 100vh; */
+            width: 100%;
+            padding-bottom: 60px;
+            background: #F7AFBD;
+            font-family: sans-serif;
+            /* margin: auto; */
+            align-items: center;
+            justify-content: center;
+        } 
+
+        .dupli {
+            display: flex;
+            margin: 0;
+            position: relative;
+            width: 100%;
+            /* width: 100%; */
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: #fff;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 80%;
+            margin-top: 64px;
+            border-radius: 16px;
+        }
+
+        .lupet {
+            width: 100%x;
+            height: 90px;
+            display: flex;
+            align-items: center;
+        }
+
+        .wk-pink {
+            background: #AB4E58;
+            border-top-left-radius: 16px;
+            display: flex;
+            color: #fff;
+            align-items: center;
+            font-size: 28px;
+            font-weight: 600;
+            justify-content: center;
+            height: 100%;
+            width: 22%;
+        }
+
+        .toucher {
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            /* justify-content: center; */
+            width: 50px;
+            height: 50px;
+        }
+
+        .toucher img {
+            width: 100%;
+        }
+
+        .liners {
+            background: #000;
+            color: #fff;
+            font-weight: 600;
+            font-size: 26px;
+            height: 50px;
+            padding-left: 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        .greycont {
+            background: #FAF4F8;
+            width: 100%;
+            height: 260px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pinker {
+            background: #FF8C8D;
+            display: flex;
+            align-items: center;
+            /* padding-left: 40px; */
+            justify-content: center;
+            height: 48px;
+            border-bottom-right-radius: 16PX;
+            font-weight: bold;
+            font-size: 26px;
+            width: 140px;
+        }
+
+        .foundation {
+            margin-left: 40px;
+            margin-top: 14px;
+            text-align: left;
+            width: 404px;
+            font-family: sans-serif;
+            font-size: 26px;
+            font-weight: 400;
+        }
+
+        .foets {
+            height: 232px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .img-cont {
+            padding-left: 6px;
+            width: 90%;
+        }
+
+        .img-cont img {
+            width: 100%;
+        }
+
+        .timeline {
+            height: 100%;
+            width: 100%;
+        }
+
+        .time-1 {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 12px;
+        }
+
+        .time-header {
+            display: flex;
+            gap: 38px;
+            height: 68px;
+            border-top: 2px solid #A3ACB1;
+            border-bottom: 2px solid #A3ACB1;
+            align-items: center;
+            font-size: 26px;
+            font-weight: 500;
+            margin-bottom: 28px;
+        }
+
+        .sess {
+            margin-left: 105px;
+            font-weight: 600;
+        }
+
+        .in-div {
+            margin: auto, 10px;
+            border-left: 2px solid #A3ACB1;
+            height: 1.5em;
+            display: inline-block;
+        }
+
+        .in-divs {
+            margin: auto, 10px;
+            border-left: 2px solid #A3ACB1;
+            height: 1.5em;
+            display: inline-block;
+        }
+
+        .time-bottom {
+            display: flex;
+            margin: auto;
+            margin-bottom: 29px;
+            width: 90%;
+            gap: 38px;
+            align-items: center;
+            /* justify-content: space-between; */
+        }
+
+        .iteration-1 {
+            display: flex;
+            gap: 38px;
+            align-items: center;
+            margin-left: 2px;
+        }
+
+        .iterations {
+            display: flex;
+            flex-direction: column;
+            width: 92%;
+            gap: 22px;
+        }
+
+        .action-text {
+            display: flex;
+            width: 20%;
+            flex-direction: column;
+            gap: 33px;
+
+            align-items: end;
+        }
+
+        .ses {
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .floating-img {
+            position: absolute;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-left: 20px;
+            top: 95px;
+            right: -40px;
+            max-width: 713px;
+        }
+
+        .float-cont {
+            display: flex;
+            width: 90%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+
+        .float-cont img {
+            max-width: 100%;
+        }
+        
+
+        .para-text {
+            font-size: 16px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="sessions">
+        <div class="dupli">
+            <div class="container">
+                <div class="lupet">
+                    <div class="wk-pink">
+                        Week 1-2:
+                    </div>
+                    <div class="toucher"><img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732425/Group_59_crlnwr.svg" alt=""></div>
+                    <div class="toucher"> <img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732424/Group_60_ksfegq.svg" alt="plus"></div>
+                </div>
+                <div class="liners">
+                    Understanding Your Body
+                </div>
+                <div class="greycont">
+                    <div class="pinker">Goal</div>
+                    <div class="foundation">Build a strong foundation by understanding and supporting your body's
+                        natural fertility mechanisms.</div>
+                </div>
+                <div class="foets">
+                    <div class="img-cont">
+                        <img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732425/foet1_vg3e2u.png"
+                            alt="foet_1">
+                    </div>
+                </div>
+                <div class="timeline">
+                    <div class="time-1">
+                        <div class="time-header">
+                            <div class="sess">Session 1 </div>
+                            <div class="in-div"></div>
+                            <div style="font-weight: 600;">Introduction to Holistic Fertility</div>
+                        </div>
+                        <div class="time-bottom">
+                            <div class="action-text">
+                                <div class="ses">Action:</div>
+                                <div class="ses">Outcome:</div>
+                                <div class="ses">Pregnancy Path:</div>
+                            </div>
+                            <div class="iterations">
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Learn how the HPOA (Hypothalamic-Pituitary-Ovarian Axis)
+                                        regulates fertility. Begin tracking your habits to identify areas to optimize
+                                    </div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Gain clarity on what's holding you back and start building
+                                        the framework for consistent ovulation.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Lay the groundwork for a fertile cycle by aligning hormonal
+                                        systems.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="time-1">
+                        <div class="time-header">
+                            <div class="sess">Session 2 </div>
+                            <div class="in-div"></div>
+                            <div style="font-weight: 600;">Stimulating the HPOA</div>
+                        </div>
+                        <div class="time-bottom">
+                            <div class="action-text">
+                                <div class="ses">Action:</div>
+                                <div class="ses">Outcome:</div>
+                                <div class="ses">Pregnancy Path:</div>
+                            </div>
+                            <div class="iterations">
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Practice endocrine-boosting techniques, including specific
+                                        breathing and acupressure exercises.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Harmonize your hormonal system for better cycle regularity.
+                                    </div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Take the first active steps toward healthier ovulation
+                                        patterns.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="floating-img">
+                <div class="float-cont">
+                    <img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732425/endocrine_ngmesk.png"
+                        alt="mac-image">
+                </div>
+            </div>
+        </div>
+
+        <div class="dupli">
+            <div class="container">
+                <div class="lupet">
+                    <div class="wk-pink">
+                        Week 3-5:
+                    </div>
+                    <div class="toucher"><img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732425/Group_59_crlnwr.svg" alt=""></div>
+                    <div class="toucher"> <img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732424/Group_60_ksfegq.svg" alt="plus"></div>
+                </div>
+                <div class="liners">
+                    Building Mind-Body Connection
+                </div>
+                <div class="greycont">
+                    <div class="pinker">Goal</div>
+                    <div class="foundation">Harness the power of your mind to create a fertile, stress-free environment
+                        for conception.</div>
+                </div>
+                <div class="foets">
+                    <div class="img-cont">
+                        <img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732425/foet2_qrj0y9.png"
+                            alt="foet_1">
+                    </div>
+                </div>
+                <div class="timeline">
+                    <div class="time-1">
+                        <div class="time-header">
+                            <div class="sess">Session 3 </div>
+                            <div class="in-div"></div>
+                            <div style="font-weight: 600;">Activating the Endocrine System</div>
+                        </div>
+                        <div class="time-bottom">
+                            <div class="action-text">
+                                <div class="ses">Action:</div>
+                                <div class="ses">Outcome:</div>
+                                <div class="ses">Pregnancy Path:</div>
+                            </div>
+                            <div class="iterations">
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Integrate targeted supplements and dietary changes proven to
+                                        boost fertility hormones.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Feel more energized and balanced as your body becomes more
+                                        receptive to conception.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Enhance egg health and create optimal conditions for
+                                        fertilization.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="time-1">
+                        <div class="time-header">
+                            <div class="sess">Session 4 </div>
+                            <div class="in-div"></div>
+                            <div style="font-weight: 600;">Mindfulness and Emotional Balance</div>
+                        </div>
+                        <div class="time-bottom">
+                            <div class="action-text">
+                                <div class="ses">Action:</div>
+                                <div class="ses">Outcome:</div>
+                                <div class="ses">Pregnancy Path:</div>
+                            </div>
+                            <div class="iterations">
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Use Emotional Freedom Technique (EFT) and guided meditation
+                                        to release fear, stress, and self-doubt.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Regain confidence and emotional resilience in your fertility
+                                        journey.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Reduce stress hormones that may be blocking conception.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="time-1">
+                        <div class="time-header">
+                            <div class="sess">Session 5 </div>
+                            <div class="in-div"></div>
+                            <div style="font-weight: 600;">Visualization and Qi-Gong</div>
+                        </div>
+                        <div class="time-bottom">
+                            <div class="action-text">
+                                <div class="ses">Action:</div>
+                                <div class="ses">Outcome:</div>
+                                <div class="ses">Pregnancy Path:</div>
+                            </div>
+                            <div class="iterations">
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Practice visualization and Qi-Gong exercises to improve
+                                        energy flow and focus on your fertility goals.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Develop a positive fertility mindset, boosting your
+                                        motivation and hope.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Foster a deep mind-body connection that supports healthy
+                                        implantation.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="floating-img">
+                <div class="float-cont">
+                    <img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732425/endocrine_ngmesk.png"
+                        alt="mac-image">
+                </div>
+            </div>
+        </div>
+
+        <div class="dupli">
+            <div class="container">
+                <div class="lupet">
+                    <div class="wk-pink">
+                        Week 6-10:
+                    </div>
+                    <div class="toucher"><img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732425/Group_59_crlnwr.svg" alt=""></div>
+                    <div class="toucher"> <img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732424/Group_60_ksfegq.svg" alt="plus"></div>
+                </div>
+                <div class="liners">
+                    Creating Your Fertility Lifestyle Plan
+                </div>
+                <div class="greycont">
+                    <div class="pinker">Goal</div>
+                    <div class="foundation">Transform daily habits to enhance fertility and set yourself up for
+                        sustained reproductive health.</div>
+                </div>
+                <div class="foets">
+                    <div class="img-cont">
+                        <img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732425/foet3_kobbej.png"
+                            alt="foet_1">
+                    </div>
+                </div>
+                <div class="timeline">
+                    <div class="time-1">
+                        <div class="time-header">
+                            <div class="sess">Session 6 </div>
+                            <div class="in-div"></div>
+                            <div style="font-weight: 600;">Nutrition for Fertility</div>
+                        </div>
+                        <div class="time-bottom">
+                            <div class="action-text">
+                                <div class="ses">Action:</div>
+                                <div class="ses">Outcome:</div>
+                                <div class="ses">Pregnancy Path:</div>
+                            </div>
+                            <div class="iterations">
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Build a fertility-focused meal plan, avoiding common pitfalls
+                                        and including fertility-enhancing superfoods.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Support egg health and uterine receptivity through balanced
+                                        nutrition.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Improve egg quality and uterine lining for successful
+                                        implantation.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="time-1">
+                        <div class="time-header">
+                            <div class="sess">Session 7 </div>
+                            <div class="in-div"></div>
+                            <div style="font-weight: 600;">Exercise and Movement</div>
+                        </div>
+                        <div class="time-bottom">
+                            <div class="action-text">
+                                <div class="ses">Action:</div>
+                                <div class="ses">Outcome:</div>
+                                <div class="ses">Pregnancy Path:</div>
+                            </div>
+                            <div class="iterations">
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Practice gentle yoga, reflexology, and movement routines that
+                                        promote blood flow to reproductive organs.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Feel physically stronger and more aligned with your body's
+                                        fertility rhythms.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Increase blood flow to the uterus, creating a nurturing
+                                        environment for conception.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="time-1">
+                        <div class="time-header">
+                            <div class="sess">Session 8 </div>
+                            <div class="in-div"></div>
+                            <div style="font-weight: 600;">Integrating Breathwork and Acupressure</div>
+                        </div>
+                        <div class="time-bottom">
+                            <div class="action-text">
+                                <div class="ses">Action:</div>
+                                <div class="ses">Outcome:</div>
+                                <div class="ses">Pregnancy Path:</div>
+                            </div>
+                            <div class="iterations">
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Use targeted breathwork and acupressure techniques to
+                                        encourage optimal ovulation and cycle health.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Gain confidence in identifying your fertile window.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Take active steps toward conception during your peak
+                                        fertility periods.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="time-1">
+                        <div class="time-header">
+                            <div class="sess">Session 9 </div>
+                            <div class="in-div"></div>
+                            <div style="font-weight: 600;">Building a Sustainable Self-Care Routine</div>
+                        </div>
+                        <div class="time-bottom">
+                            <div class="action-text">
+                                <div class="ses">Action:</div>
+                                <div class="ses">Outcome:</div>
+                                <div class="ses">Pregnancy Path:</div>
+                            </div>
+                            <div class="iterations">
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Design a personalized routine combining stress management,
+                                        nutrition, and movement to maintain fertility health.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Establish consistent habits that sustain your fertility
+                                        journey over time.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Support ongoing reproductive health, increasing your chances
+                                        with every cycle.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="time-1">
+                        <div class="time-header">
+                            <div class="sess" style="margin-left: 86px;">Session 10</div>
+                            <div class="in-div"></div>
+                            <div style="font-weight: 600;">Embracing Your Holistic Fertility Journey</div>
+                        </div>
+                        <div class="time-bottom">
+                            <div class="action-text">
+                                <div class="ses">Action:</div>
+                                <div class="ses">Outcome:</div>
+                                <div class="ses">Pregnancy Path:</div>
+                            </div>
+                            <div class="iterations">
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Reflect on progress, address remaining barriers, and prepare
+                                        for next steps with advanced techniques.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Feel empowered and hopeful as you continue on your path to
+                                        pregnancy.</div>
+                                </div>
+                                <div class="iteration-1">
+                                    <div class="in-divs"></div>
+                                    <div class="para-text">Leave equipped with all the tools you need to conceive
+                                        naturally or enhance medical treatments.</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="floating-img">
+                <div class="float-cont">
+                    <img src="https://res.cloudinary.com/dk7e9dg56/image/upload/v1735732425/endocrine_ngmesk.png"
+                        alt="mac-image">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const touchers = document.querySelectorAll('.toucher');
+            touchers.forEach(toucher => {
+                toucher.addEventListener('click', () => {
+                    const timeline = toucher.closest('.dupli').querySelector('.timeline');
+                    timeline.classList.toggle('hidden');
+                });
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all `dupli` sections
+            const sections = document.querySelectorAll('.dupli');
+
+            sections.forEach(section => {
+                // Get all touchers in the current section
+                const touchers = section.querySelectorAll('.toucher');
+
+                // Ensure only the first toucher is visible initially
+                touchers[0].style.display = 'flex';
+                touchers[1].style.display = 'none';
+
+                // Add click event to the first toucher
+                touchers[0].addEventListener('click', () => {
+                    touchers[0].style.display = 'none';
+                    touchers[1].style.display = 'flex';
+                });
+
+                // Add click event to the second toucher
+                touchers[1].addEventListener('click', () => {
+                    touchers[1].style.display = 'none';
+                    touchers[0].style.display = 'flex';
+                });
+            });
+        });
+    </script>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</body>
