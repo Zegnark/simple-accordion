@@ -1,4 +1,5 @@
-   <style>
+ <head>
+	<style>
         * {
             margin: 0;
             padding: 0;
@@ -238,6 +239,223 @@
             font-size: 16px;
             text-align: left;
         }
+     
+      @media (max-width: 1024px) {
+
+            /* Tablet view */
+            .sessions {
+                padding: 0px;
+            }
+        
+
+            .container {
+                width: 95%;
+                margin-top: 32px;
+            }
+
+            .wk-pink { 
+                font-size: 24px;
+            }
+
+            .toucher {
+                width: 36px;
+                height: 36px;
+            }
+
+            .pinker {
+                width: 120px;
+                font-size: 24px;
+            }
+
+            .greycont {
+                height: 180px;
+            }
+
+            .liners {
+                font-size: 20px;
+                padding-left: 30px;
+            }
+
+            .foundation {
+                margin-top: 22px;
+                width: 46%;
+                line-height: 1.5em;
+                margin-left: 20px;
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            .foets {
+                height: 170px;
+            }
+
+            .sess {
+                margin-left: 80px;
+            }
+
+            .time-header {
+                font-size: 20px;
+                gap: 40px;
+            }
+
+            .time-bottom {
+                /* gap: 18px; */
+            }
+
+            .para-text {
+                font-size: 14px;
+            }
+
+            .action-text {
+                width: 24%;
+                gap: 36px;
+                text-align: left;
+            }
+
+            .floating-img {
+                top: 60px;
+                max-width: 70%;
+                margin-right: -16px;
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            /* Mobile view */
+            .sessions {
+                padding: 0px;
+            }
+
+            .container {
+                width: 100%;
+                /* margin-top: 20px; */
+                border-radius: 8px;
+            }
+
+            .lupet {
+                height: 70px;
+                justify-content: space-between;
+            }
+
+            .wk-pink {
+                font-size: 18px;
+                width: 150px;
+                border-top-left-radius: 8px;
+                height: 70px;
+            }
+
+            .toucher {
+                margin-right: 20px;
+
+            }
+
+            .toucher img {
+                width: 25px;
+            }
+
+            .liners {
+                font-size: 16px;
+                padding-left: 32px;
+            }
+
+            .greycont {
+                height: 140px;
+            }
+
+            .pinker {
+                font-size: 16px;
+                height: 40px;
+                width: 100px;
+            }
+
+            .foundation {
+                width: auto;
+                padding-right: 10px;
+                margin-right: 5px;
+                font-size: 16px;
+            }
+
+            .foets {
+                height: 130px;
+            }
+
+            .foets .img-cont img {
+                width: 100%;
+            }
+
+            .time-header {
+                padding-right: 15px;
+                font-size: 16px;
+                gap: 10px;
+            }
+
+            .time-bottom {
+                flex-direction: row;
+                gap: 5px;
+            }
+
+            .iteration-1 {
+                gap: 10px;
+            }
+
+            .sess {
+                margin-left: 50px;
+            }
+
+            .sess.special-sess {
+                margin-left:38px;
+            }
+
+            .ses {
+                font-size: 12px;
+            }
+
+            .action-text {
+                width: 23.5%;
+                gap: 38px;
+                text-align: left;
+            }
+
+            .floating-img {
+                display: none;
+                /* Hiding floating images on small screens */
+            }
+
+            .para-text {
+                padding-right: 10px;
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 500px) {
+
+            .dupli {
+                width: 100%;
+                
+            }
+            
+            .container {
+                width: 100%;
+            }
+
+            .sess {
+                margin-left: 20px;
+            }
+
+            .time-header {
+                font-size: 14px;
+            }
+
+            .sess.special-sess {
+                margin-left:16px;
+            }
+
+            .ses {
+                font-size: 12px;
+            }
+        }
+     
+    
     </style>
 </head>
 
@@ -624,7 +842,7 @@
                     </div>
                     <div class="time-1">
                         <div class="time-header">
-                            <div class="sess" style="margin-left: 86px;">Session 10</div>
+                            <div class="sess special-sess">Session 10</div>
                             <div class="in-div"></div>
                             <div style="font-weight: 600;">Embracing Your Holistic Fertility Journey</div>
                         </div>
